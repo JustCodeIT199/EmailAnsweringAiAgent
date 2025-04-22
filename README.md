@@ -90,4 +90,5 @@ Built with:
 
 Google Gmail API
 
-Google Gemini API
+Google Gemini API![Screenshot 2025-04-22 232115](https://github.com/user-attachments/assets/699200a0-503f-4c9d-96da-42146b181e60)
+
