@@ -22,17 +22,15 @@ This project is a Python-based AI agent that reads your Gmail inbox, uses Google
 ```bash
 git clone https://github.com/your-username/gmail-gemini-agent.git
 cd gmail-gemini-agent
+```
 ### 2. Install Dependencies
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 Or install manually:
-
-bash
-Copy
-Edit
+```
 pip install google-auth google-auth-oauthlib google-api-python-client google-generativeai
+```
 ### 3. Enable Gmail API
 Go to Google Cloud Console
 
@@ -47,18 +45,16 @@ Add your email under Test Users
 Create OAuth Client ID (Desktop) and download credentials.json
 
 ### 4. Authenticate Gmail Access
-bash
-Copy
-Edit
+```
 python auth_gmail.py
+```
 This will open a browser window for you to log in and authorize access. It will generate a token.json file for future use.
 
 ## 🔁 Usage
 ### 1. Read Latest Email and Generate AI Reply
-bash
-Copy
-Edit
+```
 python read_email.py
+```
 This script will:
 
 Fetch your latest Gmail message
@@ -69,11 +65,9 @@ Print the AI-generated response in your terminal
 
 ## 🔐 Environment Variables
 Set your Gemini API key before running the script (or hardcode it safely in your code):
-
-bash
-Copy
-Edit
+```
 export GEMINI_API_KEY=your_api_key_here
+```
 ## 🧠 Model Used
 Model: gemini-1.5-flash
 
