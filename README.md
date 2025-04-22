@@ -20,8 +20,8 @@ This project is a Python-based AI agent that reads your Gmail inbox, uses Google
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/gmail-gemini-agent.git
-cd gmail-gemini-agent
+git clone https://github.com/JustCodeIT199/EmailAnsweringAiAgent.git
+cd EmailAnsweringAiAgent
 ```
 ### 2. Install Dependencies
 ```
