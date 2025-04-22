@@ -20,7 +20,7 @@ decoded_body = base64.urlsafe_b64decode(body_data).decode("utf-8")
 
 print(f"From: {sender}\nSubject: {subject}\n\n{decoded_body}")
 
-genai.configure(api_key="AIzaSyC0Q7n1-dr3-B0joR_ZPFnDlK-meQ8dh3E")  # Replace with your Gemini API Key
+genai.configure(api_key="Enter Your Api Key")  # Replace with your Gemini API Key
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 def generate_reply(email_text, sender_name=""):
