@@ -51,7 +51,7 @@ python auth_gmail.py
 This will open a browser window for you to log in and authorize access. It will generate a token.json file for future use.
 
 ## 🔁 Usage
-### 1. Read Latest Email and Generate AI Reply
+### Read Latest Email and Generate AI Reply
 ```
 python read_email.py
 ```
